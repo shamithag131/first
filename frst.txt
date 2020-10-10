@@ -37,7 +37,7 @@ int main()
 	second->next = third; 
 
 	third->data = 3; // assign data to third node 
-	third->data = NULL; 
+	third->next = NULL; 
 
 	printList(head); 
 
